@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    font-family: 'Quicksand', 'sans=serif';
+}
+body{
+    background-color: black;
+}
+#logo{
+    float: left;
+    font-weight: bold;
+    color: #bc5151;
+    font-size: 2.5em;
+    padding: 25px 25px 25px 250px
+}
+.banner-music{
+    background-image: url("../../Final/Images/earphone-2639487_1280.jpg");
+    opacity: 0.5;
+}
+.banner-list{
+    background-image: url("../../Final/Images/rectangle-2470309_640.jpg");
+    opacity: 0.5;
+}
+a{
+    color: #bc5151;
+}
+nav {
+    padding-top: 30px;
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #bc5151;
+    padding: 0 30px 0 30px;
+}
+.wrapper{
+    padding: 0 50px 0 50px;
+    background-color: white;
+}
+hr{
+    color: #bc5151;
+    margin: 0;
+}
+h1{
+    color: #bc5151;
+    font-size: 500%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 900;
+    padding-bottom: 300px;
+    background-image: linear-gradient(to bottom right,rgba(188,81,81,0.3),rgba(188,81,81,0.7));
+    z-index: 1;
+}
+.banner-music h1, .banner-list h1{
+    color: #952c2c;
+}
+.clearfix{
+    clear: both;
+}
+.content-left{
+    float: left;
+    width: 30%;
+    padding: 100px 20px 0 50px;
+}
+.content-right{
+    width: 60%;
+    float: right;
+}
+.contentImg{
+    height: auto;
+    width: 70%;
+    padding-top: 100px;
+    float: right;
+}
+footer {
+    border: 2px solid #bc5151;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: #c4bebe;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid #bc5151;
+    margin-bottom: 1em;
+}
+td,th{
+    padding: 5px;
+    border: 1px solid #bc5151;
+}
+caption{
+    padding-top: 40px;
+    font-size: 200%;
+}
+#listnotice{
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 70%;
+}
+ul{
+    list-style-type: none;
+}
+li::before{
+    content: "\002022";
+    color: #bc5151;
+}
+.content-center,h2{
+    color: #bc5151;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#faqic{
+    height: auto;
+    width: 50%;
+    float: right;
+    margin-right: 50px;
+}
+.showhim{
+    font-size: 50%;
+}
+.showme{
+    display: none;
+}
+.showhim:hover + .showme{
+    display: block;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    width: 10em;
+    padding-right: 1em;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 2em;
+}
+#mySubmit{
+    margin-left: 12em;
+}
+form{
+    padding-left: 3em;
+    float: left;
+}
+#contact{
+    float: right;
+}
+p,h2{
+    margin: 0;
+}
