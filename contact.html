@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>VGL: Contact</title>
+    <script>
+        function littleSecret(){
+            window.open("https://snake.googlemaps.com");
+        }
+        function validateForm(){
+            if(document.forms[0].myEmail.value == ""){
+                alert("Please enter an e-mail address.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <header id="bannerheader">
+        <div id="logo">
+            VGL
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="list.html">List</a>
+            <a href="faq.html">F.A.Q</a>
+            <a href="music.html">Music</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="clearfix"></div>
+        <div class="banner">
+            <hr>
+            <h1>Listening For Your Feedback</h1>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h2>Contact us with your questions and comments</h2>
+            <img id="contact" src="../Final/Images/contact-us-4193401_640.jpg" alt="contact us">
+            <form method="post" action="https://webdevbasics.net/scripts/yoga.php" onsubmit="return validateForm()">
+
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="myName" ><br>
+
+                <label for="myEmail">*E-mail:</label>
+                <input id="myEmail" type="email" name="myEmail"><br>
+
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="myComments" rows="2" cols="20"></textarea><br>
+
+                <input type="submit" value="Send Now" id="mySubmit">
+            </form>
+            <div class="clearfix"></div>
+            <p>*Required information is marked with an asterisk(*).</p>
+            <p>Contact with Phone:<br>
+                123-456-7890<br>
+                Contact with E-Mail:<br>
+                <a href="mailto:singhg6@wwu.edu">singhg6@wwu.edu</a>
+            </p>
+        </div>
+    </main>
+    
+    <footer>
+        Gurkirat Singh Copyright &copy; 2020
+    </footer>
+</body>
+</html>
